@@ -1,0 +1,10 @@
+Modif
+
+winpgnt.c =
+
+ligne 1234   DWORD ForcePinCaching = 0;
+
+ligne 1494 DWORD ForcePinCaching =0;
+ligne 1654 DWORD ForcePinCaching = 0;
+ligne 1684 /*AppendMenu(systray_menu, MF_ENABLED | ((ForcePinCaching)
+		? MF_CHECKED : MF_UNCHECKED), IDM_PINCACHE, "Force PIN Caching"); */
